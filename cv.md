@@ -32,3 +32,20 @@ I want to get new and develop existing knowledge and skills in order to become a
 - Linux
 
 ## Code Example
+
+This code example is taken from my GitHub repository - "component-carousel". This is a technical assignment for creating an endless carousel built with Webpack.
+```
+let [activeSlide, setActiveSlide] = useState(0);
+
+  useEffect(() => {
+    const timerId = setInterval(() => {
+      setActiveSlide((active) =>
+        active === slides.length - 1 ? 0 : active + 1,
+      );
+    }, 5000);
+    return () => clearInterval(timerId);
+  }, []);
+
+  const prevSlide = activeSlide ? activeSlide - 1 : slides.length - 1;
+  const nextSlide = activeSlide === slides.length - 1 ? 0 : activeSlide + 1;
+```
