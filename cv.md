@@ -21,3 +21,14 @@ I practice my practical skills on my own project “My Social Network”.
 This project uses the following technologies: Redux, Redux Thunk, React Hooks, Rest API, third-party libraries: Formic and Ant Design. The project was transferred to TypeScript.
 
 I want to get new and develop existing knowledge and skills in order to become a professional in the field of Full Stack development.
+
+## Web Development Expertise
+- HTML
+- CSS
+- JavaScript (es6)
+- React JS
+- Redux
+- Webpack
+- Linux
+
+## Code Example
