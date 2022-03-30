@@ -49,3 +49,12 @@ let [activeSlide, setActiveSlide] = useState(0);
   const prevSlide = activeSlide ? activeSlide - 1 : slides.length - 1;
   const nextSlide = activeSlide === slides.length - 1 ? 0 : activeSlide + 1;
 ```
+## Education
+- Polesie State University — economist
+- [Unschholer.me](https://unschooler.me)
+- [RS School](https://rs.school) (current time)
+- [Udemy](https://www.udemy.com) (video-tutorials)
+
+## Languages
+- Russian (native)
+- English (B1 - Intermediate)
